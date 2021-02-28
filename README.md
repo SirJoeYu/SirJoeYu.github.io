@@ -1,6 +1,6 @@
 
 <h1>作业——Test</h1>  
-<p style="bold；color:blue;">
+<p style="font-size: 22pt; font-weight: bold; color:green;">
   姓名：于士杰 学号：2018012393
 </p>
 
