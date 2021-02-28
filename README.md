@@ -1,5 +1,5 @@
 
-<h1 style="bold; color:blue;>
+<h1>
  作业——Test
 </h1>  
 <p style="bold; color:blue;">
@@ -7,7 +7,7 @@
 </p>
 
 
->## 基本信息
+### 基本信息{#基本信息}
 ---
 - **姓名：于士杰**
 - **性别：男**
