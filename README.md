@@ -1,14 +1,17 @@
 <html>
 <body>
-<h1>作业——简历Test</h1>  
-<p style="color:blue;">
+<h1>作业——Test</h1>  
+<p style="bold；color:blue;">
   姓名：于士杰 学号：2018012393
 </p>
   
 </body>
 </html>
 
->## 基本信息
+<p bold; color:blue;">
+基本信息
+</p>
+
 ---
 - **姓名：于士杰**
 - **性别：男**
