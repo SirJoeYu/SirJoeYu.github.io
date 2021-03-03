@@ -49,24 +49,4 @@
 >## 常用网址
  - [github](https://github.com/)  
  - [网络学堂](https://learn.tsinghua.edu.cn/)
-<table>
-    <thead>
-        <tr>
-            <th>姓名</th>
-            <th>性别</th>
-            <th>成绩</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th>张三</th>
-            <th>男</th>
-            <th>60</th>
-        </tr>
-        <tr>
-            <th>王五</th>
-            <th>男</th>
-            <th>100</th>
-        </tr>
-    </tbody>
-</table>
+
