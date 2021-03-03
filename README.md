@@ -1,6 +1,6 @@
 
 <p>
-<font color="blue;">2020-2021秋季学期</font>
+<font color=blue">2020-2021秋季学期</font>
 </p>
 
 ## 选课情况
