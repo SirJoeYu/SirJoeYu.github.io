@@ -1,4 +1,4 @@
-<font color=紫色 size=72>2020-2021秋季学期</font>
+<font color=#871F78 face="华文彩云">2020-2021秋季学期</font>
 ===========
 ## 选课情况
 <table>
