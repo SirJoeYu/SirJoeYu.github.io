@@ -7,7 +7,7 @@
 
 ![sun](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3053067344,3953063844&fm=26&gp=0.jpg)
 <div align=center>
-<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3053067344,3953063844&fm=26&gp=0.jpg" width = 80%/>
+<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3053067344,3953063844&fm=26&gp=0.jpg" width = 8%/>
 </div>
 ---
 
