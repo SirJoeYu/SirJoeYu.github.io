@@ -39,8 +39,8 @@
             <th>第二节</th>
             <th> </th>
             <th style="color:red;">生物物理学</th>
-            <th>生物信息学导论</th>
-            <th>认知的神经生物学基础</th>
+            <th style="color:red;">生物信息学导论</th>
+            <th style="color:red;">认知的神经生物学基础</th>
             <th> </th>
             <th> </th>
             <th> </th>
@@ -51,15 +51,15 @@
             <th>三年级男生游泳</th>
             <th> </th>
             <th> </th>
-            <th>脑疾病的神经生物学研究</th>
-            <th>运作管理</th>
+            <th style="color:red;">脑疾病的神经生物学研究</th>
+            <th style="color:green;">运作管理</th>
             <th> </th>
         </tr>
         <tr>
             <th>第四节</th>
             <th> </th>
-            <th>系统生物学</th>
-            <th>系统生物学</th>
+            <th style="color:red;">系统生物学</th>
+            <th style="color:red;">系统生物学</th>
             <th> </th>
             <th> </th>
             <th> </th>
@@ -71,7 +71,7 @@
             <th> </th>
             <th> </th>
             <th> </th>
-            <th>运作管理</th>
+            <th style="color:green;">运作管理</th>
             <th> </th>
             <th> </th>
         </tr>
@@ -81,7 +81,7 @@
             <th>统计学引论</th>
             <th style="color:purple;">多元统计分析</th>
             <th>公共卫生与健康</th>
-            <th>数据库原理及应用</th>
+            <th style="color:green;">数据库原理及应用</th>
             <th> </th>
             <th> </th>
         </tr>              
