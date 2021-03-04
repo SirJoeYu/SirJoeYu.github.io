@@ -39,8 +39,8 @@
             <th>第二节</th>
             <th> </th>
             <th style="color:red;">生物物理学</th>
-            <th style="color:red;">生物信息学导论</th>
-            <th style="color:red;">认知的神经生物学基础</th>
+            <th style="color:red;">生物信息学</th>
+            <th style="color:red;">认知神经生物学</th>
             <th> </th>
             <th> </th>
             <th> </th>
@@ -81,7 +81,7 @@
             <th style="color:orange;">统计学引论</th>
             <th style="color:purple;">多元统计分析</th>
             <th style="color:orange;">公共卫生与健康</th>
-            <th style="color:green;">数据库原理及应用</th>
+            <th style="color:green;">数据库原理</th>
             <th> </th>
             <th> </th>
         </tr>              
