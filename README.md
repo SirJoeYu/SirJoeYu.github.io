@@ -3,7 +3,7 @@
     2020-2021秋季学期
 </h1>
 ---
-![](https://cloud.tsinghua.edu.cn/library/4c18c043-594d-4e8f-bd63-fb72f9562d34/sun/)
+![](https://cloud.tsinghua.edu.cn/lib/4c18c043-594d-4e8f-bd63-fb72f9562d34/file/sun.jpg)
 <p align="center">
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=523863496&auto=1&height=66"></iframe>
 </p>
