@@ -48,7 +48,7 @@
         <tr>
             <th>第三节</th>
             <th> </th>
-            <th>三年级男生游泳</th>
+            <th style="color:violet;">三年级男生游泳</th>
             <th> </th>
             <th> </th>
             <th style="color:red;">脑疾病的神经生物学研究</th>
@@ -78,9 +78,9 @@
         <tr>
             <th>第六节</th>
             <th> </th>
-            <th>统计学引论</th>
+            <th style="color:orange;">统计学引论</th>
             <th style="color:purple;">多元统计分析</th>
-            <th>公共卫生与健康</th>
+            <th style="color:orange;">公共卫生与健康</th>
             <th style="color:green;">数据库原理及应用</th>
             <th> </th>
             <th> </th>
