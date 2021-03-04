@@ -27,7 +27,7 @@
     <tbody>
         <tr>
             <th>第一节</th>
-            <th>生物统计学基础</th>
+            <th style="color:purple;">生物统计学基础</th>
             <th> </th>
             <th> </th>
             <th> </th>
@@ -38,7 +38,7 @@
         <tr>
             <th>第二节</th>
             <th> </th>
-            <th>生物物理学</th>
+            <th style="color:red;">生物物理学</th>
             <th>生物信息学导论</th>
             <th>认知的神经生物学基础</th>
             <th> </th>
@@ -79,7 +79,7 @@
             <th>第六节</th>
             <th> </th>
             <th>统计学引论</th>
-            <th>多元统计分析</th>
+            <th style="color:purple;">多元统计分析</th>
             <th>公共卫生与健康</th>
             <th>数据库原理及应用</th>
             <th> </th>
