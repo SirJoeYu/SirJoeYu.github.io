@@ -1,5 +1,3 @@
-2020-2021秋季学期
-===============
 
 <h1 style="color:purple;">
     2020-2021秋季学期
@@ -141,5 +139,6 @@
  >- [生物信息学导论教程](https://lulab2.gitbook.io/teaching/)
  >- [清华邮箱](https://mails.tsinghua.edu.cn/)
  >- [清华云盘](https://cloud.tsinghua.edu.cn/)
+
 ---
 
