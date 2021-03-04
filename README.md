@@ -5,7 +5,7 @@
 
 ---
 
-![sun](https://cloud.tsinghua.edu.cn/lib/4c18c043-594d-4e8f-bd63-fb72f9562d34/file/sun.jpg)
+![sun](https://cloud.tsinghua.edu.cn/seafhttp/files/7425bc83-c382-424c-8af9-34bfb6554b7f/sun.jpg)
 
 ---
 
