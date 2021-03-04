@@ -138,6 +138,8 @@
  >- [Github](https://github.com/)
  >- [个人Github主页](https://sirjoeyu.github.io/)
  >- [清华大学信息门户](http://info.tsinghua.edu.cn/)
-
+ >- [生物信息学导论教程](https://lulab2.gitbook.io/teaching/)
+ >- [清华邮箱](https://mails.tsinghua.edu.cn/)
+ >- [清华云盘](https://cloud.tsinghua.edu.cn/)
 ---
 
