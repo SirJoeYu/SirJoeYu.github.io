@@ -1,5 +1,5 @@
 
-<h1 style="color:purple;">
+<h1 style="color:purple;text-align:center;">
     2020-2021秋季学期
 </h1>
 ---
