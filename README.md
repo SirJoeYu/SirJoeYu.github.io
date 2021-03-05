@@ -5,7 +5,7 @@
 
 ---
 
-<body background="https://www.toptal.com/designers/subtlepatterns/patterns/watercolor.png">
+<body background="https://www.toptal.com/designers/subtlepatterns/patterns/repeated-square.png">
 </body>
 
 ---
