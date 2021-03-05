@@ -95,6 +95,13 @@
     </tbody>
 </table>
 
+<p style="color:purple;text-align:center;">
+    注：紫色：外专业基础课（扩展视野）<br/>
+    紫罗兰色：体育课<br/>
+    红色：专业限选课<br/>
+    橙色：文化素质课<br/>
+    绿色：二学位课<br/>
+</p>
 ---
 
 ## 二、学期目标
