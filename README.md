@@ -95,7 +95,7 @@
     </tbody>
 </table>
 
-<p style="color:purple;text-align:center;">
+<p style="color:grey;text-align:center;">
     注：紫色：外专业基础课（扩展视野）<br/>
     紫罗兰色：体育课<br/>
     红色：专业限选课<br/>
