@@ -6,13 +6,7 @@
 ---
 
 <p align=center>
-<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3053067344,3953063844&fm=26&gp=0.jpg"/>
-</p>
-
----
-
-<p align=center>
-<img src="http://r.photo.store.qq.com/psc?/V12ccrmE2bUi2o/45NBuzDIW489QBoVep5mcbQkltV1V13k.jjaVnb9ENwR48WyAkiCf2.H3WWg*ZmkG6q*0a*u1BAUwvz*Q2DB856j.1Q0lP2AbK7YG9UHeYQ!/r"/>
+<img src="http://r.photo.store.qq.com/psc?/V12ccrmE2bUi2o/45NBuzDIW489QBoVep5mcbQkltV1V13k.jjaVnb9ENwR48WyAkiCf2.H3WWg*ZmkG6q*0a*u1BAUwvz*Q2DB856j.1Q0lP2AbK7YG9UHeYQ!/r"/ width="50">
 </p>
 
 ---
