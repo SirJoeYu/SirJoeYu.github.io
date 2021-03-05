@@ -36,7 +36,7 @@
     </thead>
     <tbody>
         <tr>
-            <th>第一节</th>
+            <th>第一节(8:00-9:35)</th>
             <th style="color:purple;">生物统计学基础</th>
             <th> </th>
             <th> </th>
@@ -46,7 +46,7 @@
             <th> </th>
         </tr>
         <tr>
-            <th>第二节</th>
+            <th>第二节(9:50-12:15)</th>
             <th> </th>
             <th style="color:red;">生物物理学</th>
             <th style="color:red;">生物信息学</th>
@@ -56,7 +56,7 @@
             <th> </th>
         </tr>
         <tr>
-            <th>第三节</th>
+            <th>第三节(13:30-15:05)</th>
             <th style="color:purple;">系统/计算神经科学</th>
             <th style="color:violet;">三年级男生游泳</th>
             <th> </th>
@@ -66,7 +66,7 @@
             <th> </th>
         </tr>
         <tr>
-            <th>第四节</th>
+            <th>第四节(15:20-16:55)</th>
             <th style="color:purple;">系统/计算神经科学</th>
             <th style="color:red;">系统生物学</th>
             <th style="color:red;">系统生物学</th>
@@ -76,7 +76,7 @@
             <th> </th>
         </tr>
         <tr>
-            <th>第五节</th>
+            <th>第五节(17:05-18:40)</th>
             <th> </th>
             <th> </th>
             <th> </th>
@@ -86,7 +86,7 @@
             <th> </th>
         </tr>
         <tr>
-            <th>第六节</th>
+            <th>第六节(19:20-21:45)</th>
             <th> </th>
             <th style="color:orange;">统计学引论</th>
             <th > </th>
