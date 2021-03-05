@@ -57,7 +57,7 @@
         </tr>
         <tr>
             <th>第三节</th>
-            <th> </th>
+            <th style="color:purple;">系统/计算神经科学</th>
             <th style="color:violet;">三年级男生游泳</th>
             <th> </th>
             <th> </th>
@@ -67,7 +67,7 @@
         </tr>
         <tr>
             <th>第四节</th>
-            <th> </th>
+            <th style="color:purple;">系统/计算神经科学</th>
             <th style="color:red;">系统生物学</th>
             <th style="color:red;">系统生物学</th>
             <th> </th>
@@ -89,7 +89,7 @@
             <th>第六节</th>
             <th> </th>
             <th style="color:orange;">统计学引论</th>
-            <th style="color:purple;">多元统计分析</th>
+            <th > </th>
             <th style="color:orange;">公共卫生与健康</th>
             <th style="color:green;">数据库原理</th>
             <th> </th>
