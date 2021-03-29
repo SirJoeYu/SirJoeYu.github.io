@@ -57,7 +57,7 @@
         </tr>
         <tr>
             <th>第三节<br/>(13:30-15:05)</th>
-            <th style="color:purple;">系统与计算<br/>神经科学</th>
+            <th style="color:purple;"></th>
             <th style="color:violet;">三年级<br/>男生游泳</th>
             <th> </th>
             <th> </th>
@@ -67,7 +67,7 @@
         </tr>
         <tr>
             <th>第四节<br/>(15:20-16:55)</th>
-            <th style="color:purple;">系统与计算<br/>神经科学</th>
+            <th style="color:purple;"></th>
             <th style="color:red;">系统生物学</th>
             <th style="color:red;">系统生物学</th>
             <th> </th>
