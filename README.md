@@ -62,7 +62,7 @@
             <th> </th>
             <th> </th>
             <th style="color:red;">脑疾病的<br/>神经生物学研究</th>
-            <th style="color:green;">运作管理</th>
+            <th style="color:green;">运作管理<br/>（前八周）</th>
             <th> </th>
         </tr>
         <tr>
@@ -81,7 +81,7 @@
             <th> </th>
             <th> </th>
             <th> </th>
-            <th style="color:green;">运作管理</th>
+            <th style="color:green;">运作管理<br/>（前八周）</th>
             <th> </th>
             <th> </th>
         </tr>
