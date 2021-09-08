@@ -1,4 +1,404 @@
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+	/* background: url(https://www.toptal.com/designers/subtlepatterns/patterns/linedpaper.png) 这一行是背景图片，这个模式是无背景版本，需要背景请去掉注释 */
+	/* background: #F5F5DC 或许有人喜欢纯色背景 */
+}
 
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* ******************** */
+/* 导入字体 */
+/* 这里是主要的西文字体 Times New Roman */
+
+@font-face {
+  font-family:'Times New Roman';/* 字体种类名 */
+  font-style: normal;/* 常规或者斜体 */
+  font-weight: normal;/* 常规或者粗体 */
+  src: url("./my/times.ttf");/* 存入字体的文件，这里是相对路径 */
+}
+
+/* ******************** */
+/* 这里是中文字体宋体 */ 
+
+@font-face {
+  font-family: simsun;/* 字体种类名 */
+  src: url("./my/simsun.ttc");/* 存入字体的文件，这里是相对路径 */
+}
+
+
+html {
+    font-size: 16px;
+}
+
+/* line-height是行高，改的小一点1.8→1.5 */
+body {
+    font-family: "Times New Roman", "Helvetica Neue", Helvetica, Arial, simsun , sans-serif;/* 主要字体 */
+    color: rgb(0, 0, 0);/* 主体的字的色号，包括标题和正文，不含引用 */
+    line-height: 1.5;/* 行高1.2到1.8合适 */
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-family:'Times New Roman', 黑体;/* 一级标题字体，各级标题同下 */
+    font-size: 2.25em;/* 一级标题大小 */
+    text-align:center;/* 一级标题居中 */
+    line-height: 1.2;/* 一级标题行高 */
+    /* border-bottom: 1px solid #eee; */    /* 这一行是下划线，建议取消，可以自己在typora中加 */
+}
+h2 {
+    font-family:'Times New Roman', 黑体;/* 二级标题字体 */
+    font-size: 1.75em;
+    line-height: 1.225;
+    /* border-bottom: 1px solid #eee; */    /* 这一行是下划线，建议取消，可以自己在typora中加 */
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-family:'Times New Roman', 黑体;/*小标题字体*/
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-family:'Times New Roman', 黑体;/*小标题字体*/
+    font-size: 1.25em;
+}
+h5 {
+    font-family:'Times New Roman', 黑体;/*小标题字体*/
+    font-size: 1em;
+}
+h6 {
+   font-family:'Times New Roman', 黑体;/*小标题字体*/
+   font-size: 1em;
+    color: #777; /* 六级标题这里改了一个浅色 */
+}
+
+table{
+    margin: 0.8em 0;
+}
+
+/*各种分割线以及下划线*/
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 1px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #82318E;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #82318E;/* 引用竖线在左侧，颜色为紫色 */
+    padding: 0 15px;
+    color: rgb(0,0,0);/* github模板一般把引用的字体颜色设为#777777灰色，我觉得这里统一和主体文本颜色一致挺好 */
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+
+/* 三线表 */
+
+#write table{
+border-top: 1.5pt solid;/* 表格顶线，实线，1.5粗 */
+border-bottom: 1.5pt solid;/* 表格底线，实线，1.5粗 */
+font-family:simsun,Times New Roman;/* 表格字体 */
+font-size:9pt;/* 表格字号 */
+text-align:center;/* 字居中 */
+  page-break-inside:avoid;
+}
+
+#write table td{
+padding:7px;
+}
+#write table tr{
+padding:7px;
+}
+
+thead{
+border-bottom: 0.75pt solid;/* 表头底线，实线，0.75粗 */
+font-family:黑体,Times New Roman;/* 表头字体 */
+font-size:9pt;
+}
+
+
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+/* 高亮，背景颜色：紫罗兰，字体颜色 */
+mark {
+    background: #EE82EE;
+    color: #000;
+}
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
 <h1 style="color:purple;text-align:center;">
     2020-2021秋季学期
 </h1>
